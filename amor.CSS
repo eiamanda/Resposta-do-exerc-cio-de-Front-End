@@ -84,7 +84,7 @@ body{
 
 #btnLeiaMais{
 	position: absolute;
-	top: 776px;
+	top: 771px;
 	left: 1104PX;
 	border:none;
 	color: #E07117;
@@ -122,8 +122,9 @@ body{
 
 span{
 	color: black;
-}
 
+}
+  
 header, #xuzu, #Res, #Disc{
  
  background-color: #FAEBD7;
@@ -137,6 +138,40 @@ header{
 	width: 1149.8px;
 	margin-left: 5px;
 	margin-top: -16.8px;
+}
+#Ln{
+	background-color: transparent;
+	position: relative;
+	top: -117px;
+	left: 800px;
+	height: 28.5px;
+	width: 91px;
+	border: 1.17px solid LightGrey;
+	border-radius: 3px;
+}
+#Ln2{
+	-webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+   -moz-appearance: none; /* Remove estilo padrão do FireFox */
+   appearance: none; /* Remove estilo padrão do FireFox*/
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+   background-position: 218px center;  /*Posição da imagem do background*/
+   width: 91px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+   height: 28.5px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+   border:1px solid #ddd;
+   outline: inherit;
+   top: -117px;
+   cursor: pointer;
+   padding: 2px 10px 0px 26px;
+   
+}
+
+#Gl{
+	position: relative;
+	top: -140px;
+	left: 809px;
+	height: 15.5px;
+	width: 15.5px;
+
 }
 #starf{
 	background-color: #E07117;
@@ -416,6 +451,40 @@ aside{
 	padding: 10px 20px 8px 12px;
 
 }
+
+#seta{
+	height: 12px;
+	width: 12px;
+	
+	z-index: 1;
+ margin-top: -88.88px;
+	left: 879px;
+	position: absolute;
+	transform: rotate(90deg);
+    transform-origin: left top 0;
+}
+
+#notif{
+
+	position: absolute;
+	margin-top: -106px;
+	left: 1095px;
+	height: 40px;
+	width: 40px;
+}
+#b{
+	position: absolute;
+	margin-top: -120px;
+	left: 1015px;
+}
+
+#leit{
+	position: absolute;
+	margin-top: -100px;
+	left: 933px;
+	font-size: 85%;
+}
+
 #BlRes{
 	background-color: white;
 	position: relative;
@@ -429,6 +498,7 @@ aside{
 	min-height: 100px;
     max-height: 500px;
 }
+
 #Disc{
 	position: relative;
 	left: 54px;
