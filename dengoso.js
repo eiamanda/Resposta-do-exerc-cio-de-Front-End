@@ -10,8 +10,10 @@ function leiamais(){
 			}else{
 				pontos.style.display="none";
 				maistexto.style.display="inline";
-				btnLeiaMais.innerHTML="ver menos";
+				btnLeiaMais.innerHTML="";
 			}
 
 		}
-
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
