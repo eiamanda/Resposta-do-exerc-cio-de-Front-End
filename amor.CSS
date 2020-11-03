@@ -6,18 +6,19 @@ body{
 
 #textG{
   position: relative;
-  font-size: 83%;
+  font-size: 85%;
   font-family: "Arial";
   border: 1px solid #e7e7e7;
   font-style: bold;
   border-bottom:none;
   border-left:none;
   border-right:none;
-  padding: 20px 20px 2px 2px; 
+  padding: 20px 0px 22px 2px; 
   float: left;
   left: 220px;
-  width:88%;
+  width:93%;
   top: 12px;
+  z-index: 3;
 }
 
 #pr{
@@ -620,6 +621,7 @@ hr{
 }
 
 #Ga{
+  border-top: 1px solid #e7e7e7;
   position: relative;
   font-size: 390%;
   color: #351c3f;
@@ -629,14 +631,16 @@ hr{
   font-weight: 700;
   left: 9px;
   top: 167px;
-  border-top: 1px solid #e7e7e7;
+  z-index: 3;
 }
 #Ga2{
+  z-index: 3;
   color: #4c0080;
   font-family: arial;
   position: relative;
   left: 8px;
   top: 150px;
+
 }
 
 #more{
@@ -650,6 +654,7 @@ hr{
   padding: 8px 8px 0px 55px;
   border-radius: 7px;
   top: 140px;
+  z-index: 3;
 }
 
 
@@ -693,7 +698,8 @@ hr{
   border-radius: 4px;
   box-shadow: 2px 2px 18px LightGrey;
   cursor: pointer;
-  overflow-x: hidden;
+  overflow-x: none;
+  z-index: 4;
 
 }
 #Car{
@@ -886,6 +892,8 @@ hr{
   position: absolute;
   display: inline-block;
   height: auto;
+  z-index: 4;
+
  }
 
 .dropdown-content {
@@ -899,7 +907,7 @@ hr{
   cursor: pointer;
   left:0px;
   right: 0px;
-  margin-top:20px; 
+  margin-top:20px;
 }
 
 .dropdown-content div {
@@ -912,7 +920,9 @@ hr{
 
 
 
-.show {display:block;}
+.show {
+ display:block;
+}
 
 .dropdown { 
   height: auto;
@@ -920,6 +930,7 @@ hr{
   left: -0;
   margin-top: 4px;
   margin-top: 22px;
+  overflow-x: none;
 }
 
 #final {
@@ -940,4 +951,8 @@ hr{
 #canto_esquerdo {
   float:left;
   
+}
+
+#cor{
+ color: #8f9699;
 }
